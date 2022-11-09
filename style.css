@@ -6,15 +6,17 @@
 }
 
 
-@media  and (max-width: 760px) {
+/* タブレット対応 */
+@media  and (min-width: 761px) {
     .container{
         width: 90%;
     }
 
-    .sp_br {
+    .sp {
         display: none;
     }
 }
+
 
 .flex{
     display: flex;
@@ -29,7 +31,7 @@
     flex-grow: 1;
 }
 
-/* SPレスポンシブ対応 */
+/* SP対応 */
 @media screen and (max-width:400px){
     .flex-item {
         flex-basis: 50%;
